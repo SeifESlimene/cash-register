@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+body {
+  background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='40' height='40' patternTransform='scale(2) rotate(85)'><rect x='0' y='0' width='100%' height='100%' fill='rgb(255,255,255)'/><path d='M40 45a5 5 0 110-10 5 5 0 010 10zM0 45a5 5 0 110-10 5 5 0 010 10zM0 5A5 5 0 110-5 5 5 0 010 5zm40 0a5 5 0 110-10 5 5 0 010 10z'  stroke-width='8' stroke='hsla(47, 84%, 57%, 1)' fill='none'/><path d='M20 25a5 5 0 110-10 5 5 0 010 10z'  stroke-width='8' stroke='hsla(0, 0%, 0%, 1)' fill='none'/></pattern></defs><rect width='100%' height='100%' fill='url(%23a)'/></svg>");
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Nunito;
+}
+
+p {
+  margin: 0;
+  font-size: 3em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+  height: 150px;
+  background-color: rgba(233, 219, 20, 1);
+  position: relative;
+  margin-bottom: 50px;
+}
+
+header::after {
+  content: "";
+  background-color: rgba(233, 219, 20, 1);
+  width: 100vw;
+  height: 50px;
+  position: absolute;
+  top: 110px;
+  transform: rotate(-1deg);
+}
+
+header::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 1);
+  width: 100vw;
+  height: 50px;
+  position: absolute;
+  top: 110px;
+  transform: rotate(1deg);
+}
+
+.purpay {
+  border-radius: 2px;
+  margin: 0 auto;
+  display: flex;
+  background-color: #fff;
+  width: 70%;
+}
+
+.purpay fieldset {
+  width: 45%;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.purpay fieldset input[type="text"] {
+  text-align: center;
+  width: 22.5%;
+  border: 0;
+  /* border-bottom: 1px solid #000; */
+  padding: 0;
+  height: 1.2em;
+  font-size: 1.3em;
+  padding: 2px 0 2px;
+  font-family: Nunito;
+}
+
+.purpay fieldset input[type="text"]::placeholder {
+  font-family: Nunito;
+  font-size: 1.2em;
+  opacity: 0.4;
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+.purpay fieldset input[type="text"]:focus {
+  outline: 0;
+  font-family: Nunito;
+}
+
+.cid {
+  width: 70%;
+  background-color: #fff;
+  margin: 5px auto 0;
+}
+
+table {
+  border: 1px solid #000;
+  width: 100%;
+}
+
+td,th {
+  border: 1px solid #000;
+  padding: 0.5rem;
+}
+
+td {
+ 
+}
+
+thead, tfoot {
+  font-weight: bold;
+  text-align: center;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <p>Cash Register</p>
+    </header>
+    <section class="main">
+      <div class="purpay">
+        <fieldset>
+          <legend>Purchase Price</legend>
+          <input
+            type="text"
+            name="purchase"
+            id="purchase"
+            autocomplete="off"
+            placeholder="$"
+            value="$"
+          />
+        </fieldset>
+        <fieldset>
+          <legend>Payment Amount</legend>
+          <input
+            type="text"
+            name="payment"
+            id="payment"
+            autocomplete="off"
+            placeholder="$"
+            value="$"
+          />
+        </fieldset>
+      </div>
+      <div class="cid">
+        <table>
+          <thead>
+            <tr>
+              <td>Currency Unit</td>
+              <td>Amount</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Penny</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Nickel</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Dime</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Quarter</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Dollar</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Five Dollars</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Ten Dollars</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Twenty Dollars</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>One-hundred Dollars</td>
+              <td></td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>Currency Unit</td>
+              <td>Amount</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
