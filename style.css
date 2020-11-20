@@ -172,7 +172,7 @@ tr td:nth-child(2) {
 }
 
 .change-container {
-  width: 70%;
+  width: 40%;
   background-color: #fff;
   margin: 20px auto;
 }
@@ -267,6 +267,10 @@ tr td:nth-child(2) {
 
 .results {
   display: flex;
-  width: 70%;
+  width: 50%;
   margin: 0 auto
+}
+
+tr td:nth-child(3) {
+  display: none;
 }
